@@ -1,0 +1,45 @@
+COLUMN,Description,Units of Measurement
+,,
+tempax,Maximum temperature over the day,Celcius
+tempmin,Minimum temperature over the day,Celcius
+temp,Temperature for most hours of the day,Celcius
+feelslikemax,"Combination of temperature, wind chill & heat index to give you the max
+Temperature",Celcius
+feelslikemin,"Combination of temperature, wind chill & heat index to give you the min
+Temperature",Celcius
+feelslike,"Combination of temperature, wind chill & heat index to give you the 
+Temperature for most hours of the day",Celcius
+Dew,Dew Point for the day,Celcius
+Humidity,"Humidity the amount of water vapor present
+In the air compared the
+Maximum amount possible for a given temperature,","
+Mean percentage. Human comfort levels are typically found
+Between 30-70%. Values higher than 70% are considered humid. Values lower than 30% are considered dry."
+Wind Speed,"2 minute average of wind speed, in KM/HR",Km/Hr
+Wind Direction,2 minute average of wind direction,"Degrees from North.
+The units of the wind direction is degrees from north.
+The value ranges from 0 degrees (from the North),
+to 90 degrees (from the east), 180 degrees (from the south),
+270 (from the west) back to 360 degrees."
+Sealevel Pressure,The atmospheric pressure at a location that removes reduction in pressure due to the altitude of the location. ,millibars.
+Cloud Cover,"Cloud cover is the amount of sky that is covered by cloud expressed as a percentage. The cloud coverage is for all altitudes.
+Daily values include the mean of the hourly cloud coverage values.",Percentage
+Visibility,"Visibility is the distance than can be seen in daylight. This account of weather phenomenon such as haze, mist, fog or smoke.",Kms
+Sunrise,The time of the sunrise for the date and location in question. Times are given in the local time zone.,
+SunSet,The time of the sunset for the date and location in question. Times are given in the local time zone.,
+Moonphase,"A decimal value representing the current moon phase between 0 and 1 where 0 represents the new moon, 0.5 represents the full moon.",
+,,
+,FULL CYCLE,
+,0 – new moon,
+,0-0.25 – waxing crescent,
+,0.25 – first quarter,
+,0.25-0.5 – waxing gibbous,
+,0.5 – full moon,
+,0.5-0.75 – waning gibbous,
+,0.75 – last quarter,
+,0.75 -1 – waning crescent,
+,,
+Conditions,Condition for the day,
+,,
+,,
+Note,"Empty values (or null values) are used within the data set to indicate an absence of data, such as missing weather information or unknown data. They are not used to indicate a zero value. For example, an unknown precipitation value will be marked as empty or null. A zero amount of precipitation will be indicated by the value zero.",
