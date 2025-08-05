@@ -1,19 +1,7 @@
-# SummerScope - Indian Summer Analysis Dashboard
-# Requirements file for Streamlit deployment
-
-# Core Data Science Libraries
 pandas
 numpy
-
-# Visualization Libraries
 streamlit
 plotly
 matplotlib
 seaborn
-
-# Additional Dependencies
-warnings-filter
-
-# Optional: For better performance and compatibility
-pytz
-scipy
+warnings
